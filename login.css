@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('nsg-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Container for Login Box */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Box Styling */
+.login-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    color: #ff5733;
+}
+
+/* Input Styling */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.login-box input::placeholder {
+    color: #ccc;
+}
+
+/* Button Styling */
+.login-box button {
+    padding: 12px;
+    background: linear-gradient(145deg, #ff5733, #c70039);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(255, 87, 51, 0.8);
+    transition: 0.3s ease-in-out;
+}
+
+.login-box button:hover {
+    background: linear-gradient(145deg, #c70039, #ff5733);
+    box-shadow: 0px 6px 12px rgba(255, 87, 51, 1);
+}
